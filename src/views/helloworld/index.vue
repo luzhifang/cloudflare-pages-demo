@@ -6,6 +6,7 @@ const data = ref<string>("");
 onMounted(async () => {
   const response = await fetch(`/api/hello-world`);
   data.value = await response.text();
+  // await fetch(`/api/user/detail?id=1`);
 });
 </script>
 

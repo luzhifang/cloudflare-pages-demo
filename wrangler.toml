@@ -1,3 +1,8 @@
 name = "cloudflare-pages-demo"
 compatibility_date = "2024-09-09"
 main = "app/server.ts"
+
+[[d1_databases]]
+binding = "DB" # This is the variable name you'll use in your code
+database_name = "demo"
+database_id = "test"
